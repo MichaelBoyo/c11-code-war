@@ -11,11 +11,8 @@ def get(arr):
         else:
             oddNo = i
             odd += 1
+    return enenNo if even == 1 else oddNo
 
-    if even == 1:
-        return enenNo
-    else:
-        return oddNo
 
 
 print(get([2,4,6,7,8,10]))
