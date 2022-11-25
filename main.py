@@ -3,7 +3,7 @@ def get(arr):
     even_no, odd_no = None, None
     for i in arr:
         if i % 2 == 0:
-            even += 1;
+            even += 1
             even_no = i
         else:
             odd_no = i
